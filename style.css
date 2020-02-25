@@ -1,0 +1,133 @@
+
+
+body{
+	background-color: #4f4f4f;
+	text-align: center;
+	font-family: 'Jua', sans-serif;
+}
+
+.subtitle{
+	padding-top: 10px;
+}
+
+.row{
+	margin-bottom: 10px;
+}
+
+
+.form{
+	background-color: #888888;
+	color: white;
+	margin: 0 auto;
+	width: 75%;
+}
+
+.labels{
+	display: inline-block;
+  	text-align: right;
+ 	width: 40%;
+  	padding: 5px;
+  	vertical-align: top;
+  	margin-top: 10px;
+}
+
+.inputs{
+	display: inline-block;
+  	text-align: left;
+  	width: 48%;
+  	vertical-align: middle;
+}
+
+.input-field{
+	height: 20px;
+  	width: 280px;
+  	padding: 5px;
+  	margin: 10px;
+  	border: 1px solid #c0c0c0;
+  	border-radius: 2px;
+}
+
+.options{
+	padding-top: 15px;
+	padding-left: 10px;
+}
+
+
+.radios{
+	padding-top: 15px;
+	padding-left: 10px;
+}
+
+.block{
+	padding-bottom: 10px;
+}
+
+.checks{
+	padding-top: 15px;
+	padding-left: 10px;
+}
+
+.check-block{
+	display: block;
+	padding-bottom: 10px;
+}
+
+textarea{
+	margin-top: 15px;
+	margin-left: 10px;
+	width: 300px;
+	height: 55px;
+}
+
+.subbutton{
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 30px;
+}
+
+.buttonstyle{
+		background-color: #034b62;
+		color: white;
+		border: none;
+		cursor: pointer;
+		font-size: 16px;
+		padding: 10px 22px;
+		margin-top: 5px;
+		border-radius: 5px;
+}
+
+.footer p{
+	margin-top: 8px;
+	margin-bottom: 8px;
+	text-align: center;
+}
+
+@media screen and (max-width: 833px) {
+  .input-field {
+    width: 80%;
+  }
+  select {
+    width: 90%;
+  }
+
+  textarea{
+  	width: 90%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .labels {
+    width: 100%;
+    text-align: left;
+  }
+  .inputs {
+    width: 80%;
+    float: left;
+  }
+  .input-field {
+    width: 100%;
+  }
+  select {
+    width: 100%;
+  }
+}

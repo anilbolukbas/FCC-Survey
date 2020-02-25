@@ -1,0 +1,124 @@
+<head>
+	<meta charset="utf-8">
+	<title>Survey Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Jua" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<div class="title">
+			<h1>Survey Form</h1>
+		</div>
+		<form class="form" id="form1">
+			<div class="subtitle">
+				<h2>Let us know how to improve our service</h2>
+			</div>
+			<div class="row">
+				<div class="labels">
+					<label for="name">* Name:</label>
+				</div>
+				<div class="inputs">
+					<input autofocus type="text" name="name" class="input-field" placeholder="Enter your name" required>
+				</div>
+			</div>
+			<div class="row">
+				<div class="labels">
+					<label for="email">* Email:</label>
+				</div>
+				<div class="inputs">
+					<input type="email" name="email" class="input-field" placeholder="Enter your email" required>
+				</div>
+			</div>
+			<div class="row">
+				<div class="labels">
+					<label for="age">* Age:</label>
+				</div>
+				<div class="inputs">
+					<input type="text" name="age" class="input-field" placeholder="Enter your age" required>
+				</div>
+			</div>
+			<div class="row">
+				<div class="labels">
+					<label for="role">What is your employment status?</label>
+				</div>
+				<div class="inputs">
+					<div class="options">
+						<select>
+							<option disabled value selected="selected">Select an Option</option>
+							<option value="student">Full-time</option>
+							<option value="learner">Part-time</option>
+							<option value="professional">Freelancer</option>
+							<option value="hobbyist">Unemployed</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="labels">
+					<label for="recommend">* How likely is it that you'd recommend our service to a friend?</label>
+				</div>
+				<div class="inputs">
+					<div class="radios">
+						<div class="block">
+							<label for="definitely"><input type="radio" name="recommend">Definitely</label>
+						</div>
+						<div class="block">
+							<label for="maybe"><input type="radio" name="recommend">Maybe</label>
+						</div>
+						<div class="block">
+							<label for="no"><input type="radio" name="recommend">No</label>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="labels">
+					<label for="like">* What do you like most in our services?</label>
+				</div>
+				<div class="inputs">
+					<div class="options">
+						<select>
+							<option disabled value selected="selected">Select an option</option>
+							<option value="challenges">Option1</option>
+							<option value="projects">Option2</option>
+							<option value="community">Option3</option>
+							<option value="opensource">Option4</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="labels">
+					<label for="improved">Things that should be improved in the future </label>
+				</div>
+				<div class="inputs">
+					<div class="checks">
+						<div class="check-block"><input type="checkbox" name="front"></div>
+						<div class="check-block"><input type="checkbox" name="back"></div>
+						<div class="check-block"><input type="checkbox" name="data"></div>
+						<div class="check-block"><input type="checkbox" name="challenges"></div>
+						<div class="check-block"><input type="checkbox" name="open"></div>
+						<div class="check-block"><input type="checkbox" name="gitter"></div>
+						<div class="check-block"><input type="checkbox" name="videos"></div>
+						<div class="check-block"><input type="checkbox" name="city"></div>
+						<div class="check-block"><input type="checkbox" name="wiki"></div>
+						<div class="check-block"><input type="checkbox" name="forum"></div>
+						<div class="check-block"><input type="checkbox" name="additional"></div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="labels">
+					<label for="textarea"></label>
+				</div>
+				<div class="inputs">
+					<textarea placeholder="In your own words, describe how you feel about our services"></textarea>
+				</div>
+			</div>
+			<div class="subbutton">
+				<button type="submit" form="form1" value="Submit" class="buttonstyle">Submit</button>
+			</div>
+		</form>
+
+	</div>
+</body>
